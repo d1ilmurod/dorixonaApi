@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'product',
     'api',
     "drf_spectacular",
+    'django_filters',
     "whitenoise.runserver_nostatic"
 ]
 
@@ -53,7 +54,8 @@ REST_FRAMEWORK = {
 SPECTACULAR_SETTINGS = {
     "TITLE": "Online Dorixona",
     "DESCRIPTION": "Bu sayt yaxshi sayt",
-    # "VERSION": "1.0.0",
+    "VERSION": "1.0.0",
+
 }
 
 MIDDLEWARE = [
